@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/border">
+    <ImageView
+        android:id="@+id/account_iv_pic"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:scaleType="centerCrop"
+        android:layout_marginVertical="5dp"
+        android:layout_marginHorizontal="5dp"
+        android:src="@mipmap/ic_launcher"/>
+    <View style="@style/Divider"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="식전"
+            android:layout_marginLeft="3dp"
+            android:textSize="10sp"/>
+        <TextView
+            android:id="@+id/account_pre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="식전"
+            android:textColor="#3F89D8"
+            android:textSize="10sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="식후"
+            android:layout_marginLeft="3dp"
+            android:textSize="10sp"/>
+        <TextView
+            android:id="@+id/account_post"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="식후"
+            android:textColor="#DC6666"
+            android:layout_marginRight="3dp"
+            android:textSize="10sp"/>
+    </LinearLayout>
+
+</LinearLayout>
